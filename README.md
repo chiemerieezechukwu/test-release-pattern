@@ -1,3 +1,5 @@
 # test-release-pattern
 
-Make some fixes
+some changes
+
+Some more changes
