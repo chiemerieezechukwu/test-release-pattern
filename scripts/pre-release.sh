@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Pre-release script"
-echo "New version: $1"
+echo "New release version: $1"
