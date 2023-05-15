@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.1.0...v1.1.1) (2023-05-15)
+
+
+### Fix
+
+* testing ([fe1d272](https://github.com/chiemerieezechukwu/test-release-pattern/commit/fe1d2723f311552607018d3b99c41d947aac8ee3))
+
 # [1.1.0](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.0.2...v1.1.0) (2023-05-15)
 
 
