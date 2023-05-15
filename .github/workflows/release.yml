@@ -19,4 +19,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
           pre-release-script: |
-            "./scripts/pre-release.sh ${nextRelease.version} ${{ secrets.RELEASE_PAT }}"
+            "GITHUB_TOKEN=${{ secrets.RELEASE_PAT }} ./scripts/pre-release.sh ${nextRelease.version}"
