@@ -3,4 +3,4 @@
 echo "Pre-release script"
 echo "New release version: $1"
 
-yq '.name' < .github/workflows/release.yml
+yq '.name = "Testing"' .github/workflows/release.yml > test
