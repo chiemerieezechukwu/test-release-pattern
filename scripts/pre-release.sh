@@ -9,4 +9,4 @@ git add test.yml
 
 git commit -m "Commit message from workflow"
 
-git push
+git push https://chiemerieezechukwu:$2@github.com/chiemerieezechukwu/test-release-pattern
