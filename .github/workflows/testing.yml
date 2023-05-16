@@ -13,6 +13,7 @@ jobs:
       - id: set-matrix
         run: |
           echo "MATRIX=test" >> $GITHUB_ENV
+      - run: |
           echo "This is set-env $MATRIX ${{ env.MATRIX }}"
   get-env:
     runs-on: ubuntu-latest
