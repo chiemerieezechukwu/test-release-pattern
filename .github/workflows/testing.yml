@@ -1,0 +1,23 @@
+name: Test
+
+on: workflow_dispatch
+
+jobs:
+  set-env:
+    runs-on: ubuntu-latest
+    name: Set env
+    outputs:
+      matrix: "${{ env.MATRIX }}"
+    steps:
+      - uses: actions/checkout@v3
+      - id: set-matrix
+        run: |
+          echo "MATRIX=test" >> $GITHUB_ENV
+          echo "This is set-env $MATRIX ${{ env.MATRIX }}"
+  get-env:
+    runs-on: ubuntu-latest
+    name: Terraform Plan
+    needs: set-env
+    steps:
+      - run: |
+          echo "This is get-env $MATRIX ${{ env.MATRIX }}"
