@@ -4,7 +4,7 @@ set -x
 echo "Pre-release script"
 echo "New release version: $1"
 
-sed -r -i "s/(VERSION: )(.*)/\1$1/" version.txt
+sed -i "s/VERSION=.*/VERSION=$1/" version.txt
 
 git add -u
 
