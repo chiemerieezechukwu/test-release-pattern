@@ -3,6 +3,14 @@
 
 ### Fix
 
+* Update pre-release.sh ([4e96264](https://github.com/chiemerieezechukwu/test-release-pattern/commit/4e96264bab27e15662ab3c835a7b90b2cbdff4eb))
+* Update pre-release.sh ([511f803](https://github.com/chiemerieezechukwu/test-release-pattern/commit/511f8039461ccceddf417ac42b3429ffb0130ad7))
+
+## [1.1.6](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.1.5...v1.1.6) (2023-05-18)
+
+
+### Fix
+
 * Update pre-release.sh ([511f803](https://github.com/chiemerieezechukwu/test-release-pattern/commit/511f8039461ccceddf417ac42b3429ffb0130ad7))
 
 ## [1.1.5](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.1.4...v1.1.5) (2023-05-18)
