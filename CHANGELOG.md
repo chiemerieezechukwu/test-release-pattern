@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.1.4...v1.1.5) (2023-05-18)
+
+
+### Fix
+
+* Update pre-release.sh ([9ca49c9](https://github.com/chiemerieezechukwu/test-release-pattern/commit/9ca49c985f1a1b0197007427891d05ba5a0fa5ca))
+
 ## [1.1.4](https://github.com/chiemerieezechukwu/test-release-pattern/compare/v1.1.3...v1.1.4) (2023-05-18)
 
 
