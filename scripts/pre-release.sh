@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xe
 
 echo "Pre-release script"
 echo "New release version: $1"
